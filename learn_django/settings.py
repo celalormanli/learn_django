@@ -123,3 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMLATE_PACK='bootsrap4'
+
+LOGIN_REDIRECT_URL='blog-home'
+
+LOGIN_URL='login'
